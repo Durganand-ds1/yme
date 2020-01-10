@@ -1,0 +1,140 @@
+
+@font-face{
+    font-family: ld;
+    src:url(Alex.ttf);
+}
+.new1{
+    font-family: ld;
+    font-size: 4.6rem;
+    color: brown;
+    padding-top: 40px;
+   
+}
+.top-container{
+    background-color: #EAF6F6;
+    padding-top: 20px;
+    position: relative;
+    
+}
+body{
+    margin: 0;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.cloud1{
+    position: absolute;
+    padding-bottom: 150px;
+    right: 250px;
+}
+#img1{
+    position: absolute;
+    top: 300px;
+}
+#t{
+    font-size: 2em;
+}
+.computer{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    float: left;
+    margin-right: 30px;
+
+    
+}
+.chill{
+    height: 150px;
+    width:  150px;
+   float: right;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+#pf{
+    height: 250px;
+    width: 200px;
+    border-radius: 200px;
+}
+.middle-container{
+    
+
+}
+.bottom-container{
+    background-color: #11999E;
+    margin-top: 80px;
+    padding-bottom: 1px;
+   padding-top:50px;
+}
+.new-project{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+    
+}
+.batman{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    
+    border: 100px ;
+    padding-top: 30px;
+}
+.batman img{
+    width: 130px;
+    height:130px;
+    position:absolute;
+    animation-name: btt;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes btt{
+    0%{left: 0;}
+    100%{left: 85%;}
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+h3{
+    color: darkslateblue;
+}
+h2{
+    color: darkslategrey;
+}
+.contact-me{
+    margin-top: 0px;
+    padding-top: 10px;
+}
+a{
+    line-height: 2;
+
+}
+hr{
+    border: dotted rgb(216, 215, 215) 6px;
+    border-bottom: none;
+    width: 4%;
+}
+.btn {
+	background-color:#44c767;
+	border-radius:28px;
+	border:0px  #18ab29;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+        
